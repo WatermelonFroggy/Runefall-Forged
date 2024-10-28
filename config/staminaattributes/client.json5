@@ -1,0 +1,15 @@
+{
+	"show_stamina_bar": true,
+	"show_full_stamina_bar": true,
+	"dynamically_adjust_to_armor_bar": true,
+	"stamina_bar_additional_length": 172,
+	"stamina_bar_x_offset": -91,
+	"stamina_bar_y_offset": -45,
+	"enable_smooth_animation": true,
+	"stamina_bar_animation_interval": 1,
+	"show_current_value_overlay": true,
+	"show_stamina_bar_number": true,
+	"stamina_bar_number_color": -6250336,
+	"stamina_bar_number_x_offset": 0,
+	"stamina_bar_number_y_offset": -46
+}

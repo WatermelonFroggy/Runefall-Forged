@@ -1,0 +1,17 @@
+{
+	"jumping_requires_stamina": true,
+	"sprinting_requires_stamina": true,
+	/* The following values are subtracted from the players stamina each tick (20 times per second)
+	*/
+	"stamina_cost_sprinting": 0.02500000037252903,
+	"stamina_cost_sneaking": 0.02500000037252903,
+	"stamina_cost_walking": 0.0,
+	"stamina_cost_swimming": 0.0,
+	"stamina_cost_walking_underwater": 0.0,
+	"stamina_cost_walking_in_water": 0.02500000037252903,
+	"stamina_cost_climbing": 0.02500000037252903,
+	/* The following values are subtracted from the players stamina each time the action is performed
+	*/
+	"stamina_cost_sprint_jumping": 1.0,
+	"stamina_cost_jumping": 0.5
+}

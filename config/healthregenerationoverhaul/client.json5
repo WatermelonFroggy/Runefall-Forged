@@ -1,0 +1,17 @@
+{
+	/* Replaces the vanilla health bar with a simpler and more scalable bar.
+	   All other options in this config only affect the new health bar
+	*/
+	"enable_alternative_health_bar": false,
+	"show_full_health_bar": true,
+	"health_bar_additional_length": 172,
+	"health_bar_x_offset": -91,
+	"health_bar_y_offset": -39,
+	"enable_smooth_animation": true,
+	"health_bar_animation_interval": 1,
+	"show_current_value_overlay": true,
+	"show_health_bar_number": true,
+	"health_bar_number_color": -6250336,
+	"health_bar_number_x_offset": 0,
+	"health_bar_number_y_offset": -40
+}

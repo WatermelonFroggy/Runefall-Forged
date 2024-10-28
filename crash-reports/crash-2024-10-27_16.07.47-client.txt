@@ -1,0 +1,476 @@
+---- Minecraft Crash Report ----
+
+// Hi. I'm Connector, and I'm a crashaholic
+=========================
+SINYTRA CONNECTOR IS PRESENT!
+Please verify issues are not caused by Connector before reporting them to mod authors.
+If you're unsure, file a report on Connector's issue tracker found at https://github.com/Sinytra/Connector/issues.
+=========================
+
+// I let you down. Sorry :(
+
+Time: 2024-10-27 16:07:47
+Description: Initializing game
+
+net.minecraftforge.fml.loading.EarlyLoadingException: Could not execute entrypoint stage 'main' due to errors, provided by 'data_attributes' at 'com.bibireden.data_attributes.DataAttributes'!
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23307!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$eek001$connectormod$earlyInit(Minecraft.java:28924) ~[client-1.20.1-20230612.114412-srg.jar%23454!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:APP:spell_engine.mixins.json:client.action_impair.MinecraftClientActionImpairing from mod spell_engine,pl:mixin:APP:amecsapi.mixins.json:MixinMinecraftClient from mod amecsapi,pl:mixin:APP:mixins.connectorextras_kubejs_bridge.json:MinecraftMixin from mod connectorextras_kubejs_bridge,pl:mixin:APP:connectorextras_architectury_bridge.mixins.json:MinecraftMixin from mod connectorextras_architectury_bridge,pl:mixin:APP:horsebuff.mixins.json:Client.InventoryAccessor from mod horsebuff,pl:mixin:APP:spell_engine.mixins.json:client.control.SpellHotbarMinecraftClient from mod spell_engine,pl:mixin:APP:readyaimfire.client.mixins.json:ExampleClientMixin from mod readyaimfire,pl:mixin:APP:apoli.mixins.json:MinecraftClientMixin from mod apoli,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:tcdcommons.client.mixin.events.json:MixinMinecraftClient from mod tcdcommons,pl:mixin:APP:fabric-screen-api-v1.mixins.json:MinecraftClientMixin from mod fabric_screen_api_v1,pl:mixin:APP:spell_engine.mixins.json:client.render.MinecraftClientMixin from mod spell_engine,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft from mod glitchcore,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:mixins.libgui.json:client.MinecraftClientMixin from mod libgui,pl:mixin:APP:fabric-registry-sync-v0.client.mixins.json:MinecraftClientMixin from mod fabric_registry_sync_v0,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:kirin.mixin.json:MixinMinecraftClient from mod kirin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod embeddium_extra,pl:mixin:APP:bookshelf.common.mixins.json:accessors.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:carryon.mixins.json:MinecraftMixin from mod carryon,pl:mixin:APP:mixins.connectorextras_modmenu_bridge.json:MinecraftMixin from mod connectorextras_modmenu_bridge,pl:mixin:APP:mixins.sodiumdynamiclights.json:MinecraftClientMixin from mod sodiumdynamiclights,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:mousewheelie.mixins.json:MixinMinecraftClient from mod mousewheelie,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftMixin from mod connectormod,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:brewery-common.mixins.json:rope.PickMixin from mod brewery,pl:mixin:APP:fabric-networking-api-v1.client.mixins.json:accessor.MinecraftClientAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.client.mixins.json:MinecraftClientMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:celestial.mixins.json:MinecraftMixin from mod celestial,pl:mixin:APP:mixins.bfrc.json:AccessorMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:mixins.bfrc.json:MixinMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:interactic.mixins.json:MinecraftClientMixin from mod interactic,pl:mixin:APP:entity_sound_features-common.mixins.json:MixinResourceReload from mod entity_sound_features,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin from mod moonlight,pl:mixin:APP:sounds.mixins.json:ui.ScreenSoundEffect from mod sounds,pl:mixin:APP:ranged_weapon_api.mixins.json:client.MinecraftClientMixin from mod ranged_weapon_api,pl:mixin:APP:yacl.mixins.json:MinecraftMixin from mod yet_another_config_lib_v3,pl:mixin:APP:fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric_events_interaction_v0,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin from mod (unknown),pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin from mod embeddium,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor from mod embeddium,pl:mixin:APP:mixins.connectorextras_geckolib_fabric_compat.json:MinecraftMixin from mod connectorextras_geckolib_fabric_compat,pl:mixin:APP:connectormod.mixins.json:boot.MinecraftMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23454!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:APP:spell_engine.mixins.json:client.action_impair.MinecraftClientActionImpairing from mod spell_engine,pl:mixin:APP:amecsapi.mixins.json:MixinMinecraftClient from mod amecsapi,pl:mixin:APP:mixins.connectorextras_kubejs_bridge.json:MinecraftMixin from mod connectorextras_kubejs_bridge,pl:mixin:APP:connectorextras_architectury_bridge.mixins.json:MinecraftMixin from mod connectorextras_architectury_bridge,pl:mixin:APP:horsebuff.mixins.json:Client.InventoryAccessor from mod horsebuff,pl:mixin:APP:spell_engine.mixins.json:client.control.SpellHotbarMinecraftClient from mod spell_engine,pl:mixin:APP:readyaimfire.client.mixins.json:ExampleClientMixin from mod readyaimfire,pl:mixin:APP:apoli.mixins.json:MinecraftClientMixin from mod apoli,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:tcdcommons.client.mixin.events.json:MixinMinecraftClient from mod tcdcommons,pl:mixin:APP:fabric-screen-api-v1.mixins.json:MinecraftClientMixin from mod fabric_screen_api_v1,pl:mixin:APP:spell_engine.mixins.json:client.render.MinecraftClientMixin from mod spell_engine,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft from mod glitchcore,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:mixins.libgui.json:client.MinecraftClientMixin from mod libgui,pl:mixin:APP:fabric-registry-sync-v0.client.mixins.json:MinecraftClientMixin from mod fabric_registry_sync_v0,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:kirin.mixin.json:MixinMinecraftClient from mod kirin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod embeddium_extra,pl:mixin:APP:bookshelf.common.mixins.json:accessors.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:carryon.mixins.json:MinecraftMixin from mod carryon,pl:mixin:APP:mixins.connectorextras_modmenu_bridge.json:MinecraftMixin from mod connectorextras_modmenu_bridge,pl:mixin:APP:mixins.sodiumdynamiclights.json:MinecraftClientMixin from mod sodiumdynamiclights,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:mousewheelie.mixins.json:MixinMinecraftClient from mod mousewheelie,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftMixin from mod connectormod,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:brewery-common.mixins.json:rope.PickMixin from mod brewery,pl:mixin:APP:fabric-networking-api-v1.client.mixins.json:accessor.MinecraftClientAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.client.mixins.json:MinecraftClientMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:celestial.mixins.json:MinecraftMixin from mod celestial,pl:mixin:APP:mixins.bfrc.json:AccessorMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:mixins.bfrc.json:MixinMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:interactic.mixins.json:MinecraftClientMixin from mod interactic,pl:mixin:APP:entity_sound_features-common.mixins.json:MixinResourceReload from mod entity_sound_features,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin from mod moonlight,pl:mixin:APP:sounds.mixins.json:ui.ScreenSoundEffect from mod sounds,pl:mixin:APP:ranged_weapon_api.mixins.json:client.MinecraftClientMixin from mod ranged_weapon_api,pl:mixin:APP:yacl.mixins.json:MinecraftMixin from mod yet_another_config_lib_v3,pl:mixin:APP:fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric_events_interaction_v0,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin from mod (unknown),pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin from mod embeddium,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor from mod embeddium,pl:mixin:APP:mixins.connectorextras_geckolib_fabric_compat.json:MinecraftMixin from mod connectorextras_geckolib_fabric_compat,pl:mixin:APP:connectormod.mixins.json:boot.MinecraftMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-47.3.11.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:mixins.emibridge.json:MainEntrypointMixin from mod connectorextras_emi_bridge,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+Caused by: java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'data_attributes' at 'com.bibireden.data_attributes.DataAttributes'!
+	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:133) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:131) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23307!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	... 18 more
+	Suppressed: java.lang.NoClassDefFoundError: io/wispforest/owo/config/ConfigWrapper
+		at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+		at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?] {}
+		at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.10.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+		at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+		at interactic.InteracticInit.<clinit>(InteracticInit.java:25) ~[interactic-0.2.0+1.20_mapped_srg_1.20.1.jar%231090!/:?] {re:mixin,re:classloading}
+		at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
+		at java.lang.Class.forName(Unknown Source) ~[?:?] {re:mixin}
+		at net.fabricmc.loader.impl.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:49) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+		at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:126) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+		at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+		at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+		at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23307!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+		at net.minecraft.client.Minecraft.handler$eek001$connectormod$earlyInit(Minecraft.java:28924) ~[client-1.20.1-20230612.114412-srg.jar%23454!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:APP:spell_engine.mixins.json:client.action_impair.MinecraftClientActionImpairing from mod spell_engine,pl:mixin:APP:amecsapi.mixins.json:MixinMinecraftClient from mod amecsapi,pl:mixin:APP:mixins.connectorextras_kubejs_bridge.json:MinecraftMixin from mod connectorextras_kubejs_bridge,pl:mixin:APP:connectorextras_architectury_bridge.mixins.json:MinecraftMixin from mod connectorextras_architectury_bridge,pl:mixin:APP:horsebuff.mixins.json:Client.InventoryAccessor from mod horsebuff,pl:mixin:APP:spell_engine.mixins.json:client.control.SpellHotbarMinecraftClient from mod spell_engine,pl:mixin:APP:readyaimfire.client.mixins.json:ExampleClientMixin from mod readyaimfire,pl:mixin:APP:apoli.mixins.json:MinecraftClientMixin from mod apoli,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:tcdcommons.client.mixin.events.json:MixinMinecraftClient from mod tcdcommons,pl:mixin:APP:fabric-screen-api-v1.mixins.json:MinecraftClientMixin from mod fabric_screen_api_v1,pl:mixin:APP:spell_engine.mixins.json:client.render.MinecraftClientMixin from mod spell_engine,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft from mod glitchcore,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:mixins.libgui.json:client.MinecraftClientMixin from mod libgui,pl:mixin:APP:fabric-registry-sync-v0.client.mixins.json:MinecraftClientMixin from mod fabric_registry_sync_v0,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:kirin.mixin.json:MixinMinecraftClient from mod kirin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod embeddium_extra,pl:mixin:APP:bookshelf.common.mixins.json:accessors.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:carryon.mixins.json:MinecraftMixin from mod carryon,pl:mixin:APP:mixins.connectorextras_modmenu_bridge.json:MinecraftMixin from mod connectorextras_modmenu_bridge,pl:mixin:APP:mixins.sodiumdynamiclights.json:MinecraftClientMixin from mod sodiumdynamiclights,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:mousewheelie.mixins.json:MixinMinecraftClient from mod mousewheelie,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftMixin from mod connectormod,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:brewery-common.mixins.json:rope.PickMixin from mod brewery,pl:mixin:APP:fabric-networking-api-v1.client.mixins.json:accessor.MinecraftClientAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.client.mixins.json:MinecraftClientMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:celestial.mixins.json:MinecraftMixin from mod celestial,pl:mixin:APP:mixins.bfrc.json:AccessorMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:mixins.bfrc.json:MixinMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:interactic.mixins.json:MinecraftClientMixin from mod interactic,pl:mixin:APP:entity_sound_features-common.mixins.json:MixinResourceReload from mod entity_sound_features,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin from mod moonlight,pl:mixin:APP:sounds.mixins.json:ui.ScreenSoundEffect from mod sounds,pl:mixin:APP:ranged_weapon_api.mixins.json:client.MinecraftClientMixin from mod ranged_weapon_api,pl:mixin:APP:yacl.mixins.json:MinecraftMixin from mod yet_another_config_lib_v3,pl:mixin:APP:fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric_events_interaction_v0,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin from mod (unknown),pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin from mod embeddium,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor from mod embeddium,pl:mixin:APP:mixins.connectorextras_geckolib_fabric_compat.json:MinecraftMixin from mod connectorextras_geckolib_fabric_compat,pl:mixin:APP:connectormod.mixins.json:boot.MinecraftMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+		at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23454!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:APP:spell_engine.mixins.json:client.action_impair.MinecraftClientActionImpairing from mod spell_engine,pl:mixin:APP:amecsapi.mixins.json:MixinMinecraftClient from mod amecsapi,pl:mixin:APP:mixins.connectorextras_kubejs_bridge.json:MinecraftMixin from mod connectorextras_kubejs_bridge,pl:mixin:APP:connectorextras_architectury_bridge.mixins.json:MinecraftMixin from mod connectorextras_architectury_bridge,pl:mixin:APP:horsebuff.mixins.json:Client.InventoryAccessor from mod horsebuff,pl:mixin:APP:spell_engine.mixins.json:client.control.SpellHotbarMinecraftClient from mod spell_engine,pl:mixin:APP:readyaimfire.client.mixins.json:ExampleClientMixin from mod readyaimfire,pl:mixin:APP:apoli.mixins.json:MinecraftClientMixin from mod apoli,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:tcdcommons.client.mixin.events.json:MixinMinecraftClient from mod tcdcommons,pl:mixin:APP:fabric-screen-api-v1.mixins.json:MinecraftClientMixin from mod fabric_screen_api_v1,pl:mixin:APP:spell_engine.mixins.json:client.render.MinecraftClientMixin from mod spell_engine,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft from mod glitchcore,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:mixins.libgui.json:client.MinecraftClientMixin from mod libgui,pl:mixin:APP:fabric-registry-sync-v0.client.mixins.json:MinecraftClientMixin from mod fabric_registry_sync_v0,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:kirin.mixin.json:MixinMinecraftClient from mod kirin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod embeddium_extra,pl:mixin:APP:bookshelf.common.mixins.json:accessors.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:carryon.mixins.json:MinecraftMixin from mod carryon,pl:mixin:APP:mixins.connectorextras_modmenu_bridge.json:MinecraftMixin from mod connectorextras_modmenu_bridge,pl:mixin:APP:mixins.sodiumdynamiclights.json:MinecraftClientMixin from mod sodiumdynamiclights,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:mousewheelie.mixins.json:MixinMinecraftClient from mod mousewheelie,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftMixin from mod connectormod,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:brewery-common.mixins.json:rope.PickMixin from mod brewery,pl:mixin:APP:fabric-networking-api-v1.client.mixins.json:accessor.MinecraftClientAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.client.mixins.json:MinecraftClientMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:celestial.mixins.json:MinecraftMixin from mod celestial,pl:mixin:APP:mixins.bfrc.json:AccessorMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:mixins.bfrc.json:MixinMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:interactic.mixins.json:MinecraftClientMixin from mod interactic,pl:mixin:APP:entity_sound_features-common.mixins.json:MixinResourceReload from mod entity_sound_features,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin from mod moonlight,pl:mixin:APP:sounds.mixins.json:ui.ScreenSoundEffect from mod sounds,pl:mixin:APP:ranged_weapon_api.mixins.json:client.MinecraftClientMixin from mod ranged_weapon_api,pl:mixin:APP:yacl.mixins.json:MinecraftMixin from mod yet_another_config_lib_v3,pl:mixin:APP:fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric_events_interaction_v0,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin from mod (unknown),pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin from mod embeddium,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor from mod embeddium,pl:mixin:APP:mixins.connectorextras_geckolib_fabric_compat.json:MinecraftMixin from mod connectorextras_geckolib_fabric_compat,pl:mixin:APP:connectormod.mixins.json:boot.MinecraftMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+		at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-47.3.11.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:mixins.emibridge.json:MainEntrypointMixin from mod connectorextras_emi_bridge,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+		at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	Caused by: java.lang.ClassNotFoundException: io.wispforest.owo.config.ConfigWrapper
+		at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?] {}
+		at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?] {}
+		at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+		at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?] {}
+		at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+		... 34 more
+Caused by: java.lang.NoClassDefFoundError: io/wispforest/owo/config/ConfigWrapper
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at com.bibireden.data_attributes.DataAttributes.<clinit>(DataAttributes.kt:33) ~[data-attributes-2.0.2+1.20.1-fabric_mapped_srg_1.20.1.jar%231080!/:?] {re:classloading}
+	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.forName(Unknown Source) ~[?:?] {re:mixin}
+	at net.fabricmc.language.kotlin.KotlinAdapter.create(KotlinAdapter.kt:40) ~[fabric-language-kotlin-1.12.3+kotlin.2.0.21_mapped_srg_1.20.1.jar%231083!/:?] {re:classloading}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:126) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23307!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	... 18 more
+Caused by: java.lang.ClassNotFoundException: io.wispforest.owo.config.ConfigWrapper
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?] {}
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?] {}
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:119) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?] {}
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?] {}
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?] {}
+	at com.bibireden.data_attributes.DataAttributes.<clinit>(DataAttributes.kt:33) ~[data-attributes-2.0.2+1.20.1-fabric_mapped_srg_1.20.1.jar%231080!/:?] {re:classloading}
+	at java.lang.Class.forName0(Native Method) ~[?:?] {re:mixin}
+	at java.lang.Class.forName(Unknown Source) ~[?:?] {re:mixin}
+	at net.fabricmc.language.kotlin.KotlinAdapter.create(KotlinAdapter.kt:40) ~[fabric-language-kotlin-1.12.3+kotlin.2.0.21_mapped_srg_1.20.1.jar%231083!/:?] {re:classloading}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:126) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:53) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:129) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:44) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23307!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	... 18 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mods: NONE
+Stacktrace:
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createLoadingException(ConnectorEarlyLoader.java:81) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.loader.ConnectorEarlyLoader.createGenericLoadingException(ConnectorEarlyLoader.java:77) ~[Connector-1.0.0-beta.46+1.20.1.jar%23303!/:1.0.0-beta.46+1.20.1] {}
+	at org.sinytra.connector.mod.ConnectorLoader.load(ConnectorLoader.java:55) ~[Connector-1.0.0-beta.46+1.20.1-mod.jar%23307!/:1.0.0-beta.46+1.20.1] {re:mixin,re:classloading}
+	at net.minecraft.client.Minecraft.handler$eek001$connectormod$earlyInit(Minecraft.java:28924) ~[client-1.20.1-20230612.114412-srg.jar%23454!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:APP:spell_engine.mixins.json:client.action_impair.MinecraftClientActionImpairing from mod spell_engine,pl:mixin:APP:amecsapi.mixins.json:MixinMinecraftClient from mod amecsapi,pl:mixin:APP:mixins.connectorextras_kubejs_bridge.json:MinecraftMixin from mod connectorextras_kubejs_bridge,pl:mixin:APP:connectorextras_architectury_bridge.mixins.json:MinecraftMixin from mod connectorextras_architectury_bridge,pl:mixin:APP:horsebuff.mixins.json:Client.InventoryAccessor from mod horsebuff,pl:mixin:APP:spell_engine.mixins.json:client.control.SpellHotbarMinecraftClient from mod spell_engine,pl:mixin:APP:readyaimfire.client.mixins.json:ExampleClientMixin from mod readyaimfire,pl:mixin:APP:apoli.mixins.json:MinecraftClientMixin from mod apoli,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:tcdcommons.client.mixin.events.json:MixinMinecraftClient from mod tcdcommons,pl:mixin:APP:fabric-screen-api-v1.mixins.json:MinecraftClientMixin from mod fabric_screen_api_v1,pl:mixin:APP:spell_engine.mixins.json:client.render.MinecraftClientMixin from mod spell_engine,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft from mod glitchcore,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:mixins.libgui.json:client.MinecraftClientMixin from mod libgui,pl:mixin:APP:fabric-registry-sync-v0.client.mixins.json:MinecraftClientMixin from mod fabric_registry_sync_v0,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:kirin.mixin.json:MixinMinecraftClient from mod kirin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod embeddium_extra,pl:mixin:APP:bookshelf.common.mixins.json:accessors.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:carryon.mixins.json:MinecraftMixin from mod carryon,pl:mixin:APP:mixins.connectorextras_modmenu_bridge.json:MinecraftMixin from mod connectorextras_modmenu_bridge,pl:mixin:APP:mixins.sodiumdynamiclights.json:MinecraftClientMixin from mod sodiumdynamiclights,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:mousewheelie.mixins.json:MixinMinecraftClient from mod mousewheelie,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftMixin from mod connectormod,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:brewery-common.mixins.json:rope.PickMixin from mod brewery,pl:mixin:APP:fabric-networking-api-v1.client.mixins.json:accessor.MinecraftClientAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.client.mixins.json:MinecraftClientMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:celestial.mixins.json:MinecraftMixin from mod celestial,pl:mixin:APP:mixins.bfrc.json:AccessorMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:mixins.bfrc.json:MixinMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:interactic.mixins.json:MinecraftClientMixin from mod interactic,pl:mixin:APP:entity_sound_features-common.mixins.json:MixinResourceReload from mod entity_sound_features,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin from mod moonlight,pl:mixin:APP:sounds.mixins.json:ui.ScreenSoundEffect from mod sounds,pl:mixin:APP:ranged_weapon_api.mixins.json:client.MinecraftClientMixin from mod ranged_weapon_api,pl:mixin:APP:yacl.mixins.json:MinecraftMixin from mod yet_another_config_lib_v3,pl:mixin:APP:fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric_events_interaction_v0,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin from mod (unknown),pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin from mod embeddium,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor from mod embeddium,pl:mixin:APP:mixins.connectorextras_geckolib_fabric_compat.json:MinecraftMixin from mod connectorextras_geckolib_fabric_compat,pl:mixin:APP:connectormod.mixins.json:boot.MinecraftMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.<init>(Minecraft.java:424) ~[client-1.20.1-20230612.114412-srg.jar%23454!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimapfair:xaero_minecraftclient,pl:mixin:APP:spell_engine.mixins.json:client.action_impair.MinecraftClientActionImpairing from mod spell_engine,pl:mixin:APP:amecsapi.mixins.json:MixinMinecraftClient from mod amecsapi,pl:mixin:APP:mixins.connectorextras_kubejs_bridge.json:MinecraftMixin from mod connectorextras_kubejs_bridge,pl:mixin:APP:connectorextras_architectury_bridge.mixins.json:MinecraftMixin from mod connectorextras_architectury_bridge,pl:mixin:APP:horsebuff.mixins.json:Client.InventoryAccessor from mod horsebuff,pl:mixin:APP:spell_engine.mixins.json:client.control.SpellHotbarMinecraftClient from mod spell_engine,pl:mixin:APP:readyaimfire.client.mixins.json:ExampleClientMixin from mod readyaimfire,pl:mixin:APP:apoli.mixins.json:MinecraftClientMixin from mod apoli,pl:mixin:APP:modernfix-common.mixins.json:bugfix.world_leaks.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:bugfix.concurrency.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:feature.measure_time.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.blast_search_trees.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.dedicated_reload_executor.MinecraftMixin from mod modernfix,pl:mixin:APP:modernfix-forge.mixins.json:feature.measure_time.MinecraftMixin_Forge from mod modernfix,pl:mixin:APP:tcdcommons.client.mixin.events.json:MixinMinecraftClient from mod tcdcommons,pl:mixin:APP:fabric-screen-api-v1.mixins.json:MinecraftClientMixin from mod fabric_screen_api_v1,pl:mixin:APP:spell_engine.mixins.json:client.render.MinecraftClientMixin from mod spell_engine,pl:mixin:APP:glitchcore.mixins.json:client.MixinMinecraft from mod glitchcore,pl:mixin:APP:emi.mixins.json:MinecraftClientMixin from mod emi,pl:mixin:APP:mixins.libgui.json:client.MinecraftClientMixin from mod libgui,pl:mixin:APP:fabric-registry-sync-v0.client.mixins.json:MinecraftClientMixin from mod fabric_registry_sync_v0,pl:mixin:APP:immediatelyfast-common.mixins.json:core.MixinMinecraftClient from mod immediatelyfast,pl:mixin:APP:kirin.mixin.json:MixinMinecraftClient from mod kirin,pl:mixin:APP:sodium-extra.mixins.json:gui.MinecraftClientAccessor from mod embeddium_extra,pl:mixin:APP:bookshelf.common.mixins.json:accessors.client.AccessorMinecraft from mod bookshelf,pl:mixin:APP:carryon.mixins.json:MinecraftMixin from mod carryon,pl:mixin:APP:mixins.connectorextras_modmenu_bridge.json:MinecraftMixin from mod connectorextras_modmenu_bridge,pl:mixin:APP:mixins.sodiumdynamiclights.json:MinecraftClientMixin from mod sodiumdynamiclights,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReloadStart from mod entity_model_features,pl:mixin:APP:entity_model_features-common.mixins.json:accessor.MinecraftClientAccessor from mod entity_model_features,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinMinecraftClient from mod entity_texture_features,pl:mixin:APP:mousewheelie.mixins.json:MixinMinecraftClient from mod mousewheelie,pl:mixin:APP:connectormod.mixins.json:registries.MinecraftMixin from mod connectormod,pl:mixin:APP:architectury.mixins.json:MixinMinecraft from mod architectury,pl:mixin:APP:brewery-common.mixins.json:rope.PickMixin from mod brewery,pl:mixin:APP:fabric-networking-api-v1.client.mixins.json:accessor.MinecraftClientAccessor from mod fabric_networking_api_v1,pl:mixin:APP:fabric-lifecycle-events-v1.client.mixins.json:MinecraftClientMixin from mod fabric_lifecycle_events_v1,pl:mixin:APP:kubejs-common.mixins.json:MinecraftClientMixin from mod kubejs,pl:mixin:APP:celestial.mixins.json:MinecraftMixin from mod celestial,pl:mixin:APP:mixins.bfrc.json:AccessorMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:mixins.bfrc.json:MixinMinecraft from mod brute_force_rendering_culling,pl:mixin:APP:interactic.mixins.json:MinecraftClientMixin from mod interactic,pl:mixin:APP:entity_sound_features-common.mixins.json:MixinResourceReload from mod entity_sound_features,pl:mixin:APP:moonlight-common.mixins.json:MinecraftMixin from mod moonlight,pl:mixin:APP:sounds.mixins.json:ui.ScreenSoundEffect from mod sounds,pl:mixin:APP:ranged_weapon_api.mixins.json:client.MinecraftClientMixin from mod ranged_weapon_api,pl:mixin:APP:yacl.mixins.json:MinecraftMixin from mod yet_another_config_lib_v3,pl:mixin:APP:fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric_events_interaction_v0,pl:mixin:APP:sound_physics_remastered.mixins.json:MinecraftMixin from mod (unknown),pl:mixin:APP:embeddium.mixins.json:core.MinecraftClientMixin from mod embeddium,pl:mixin:APP:embeddium.mixins.json:core.render.MinecraftAccessor from mod embeddium,pl:mixin:APP:mixins.connectorextras_geckolib_fabric_compat.json:MinecraftMixin from mod connectorextras_geckolib_fabric_compat,pl:mixin:APP:connectormod.mixins.json:boot.MinecraftMixin from mod connectormod,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+Mixins in Stacktrace:
+	net.minecraft.client.Minecraft:
+		org.embeddedt.modernfix.common.mixin.bugfix.world_leaks.MinecraftMixin (modernfix-common.mixins.json)
+		com.minelittlepony.common.mixin.MixinMinecraftClient (kirin.mixin.json)
+		org.sinytra.connector.mod.mixin.boot.MinecraftMixin (connectormod.mixins.json)
+		traben.entity_model_features.mixin.MixinResourceReloadStart (entity_model_features-common.mixins.json)
+		net.spell_engine.mixin.client.render.MinecraftClientMixin (spell_engine.mixins.json)
+		tschipp.carryon.mixin.MinecraftMixin (carryon.mixins.json)
+		net.fabricmc.fabric.mixin.event.lifecycle.client.MinecraftClientMixin (fabric-lifecycle-events-v1.client.mixins.json)
+		interactic.mixin.MinecraftClientMixin (interactic.mixins.json)
+		traben.entity_model_features.mixin.accessor.MinecraftClientAccessor (entity_model_features-common.mixins.json)
+		net.mehvahdjukaar.moonlight.core.mixins.MinecraftMixin (moonlight-common.mixins.json)
+		me.flashyreese.mods.sodiumextra.mixin.gui.MinecraftClientAccessor (sodium-extra.mixins.json)
+		dev.emi.emi.mixin.MinecraftClientMixin (emi.mixins.json)
+		org.embeddedt.modernfix.common.mixin.perf.blast_search_trees.MinecraftMixin (modernfix-common.mixins.json)
+		org.embeddedt.modernfix.forge.mixin.feature.measure_time.MinecraftMixin_Forge (modernfix-forge.mixins.json)
+		dev.su5ed.sinytra.connectorextras.modmenu.mixin.MinecraftMixin (mixins.connectorextras_modmenu_bridge.json)
+		net.darkhax.bookshelf.mixin.accessors.client.AccessorMinecraft (bookshelf.common.mixins.json)
+		io.github.apace100.apoli.mixin.MinecraftClientMixin (apoli.mixins.json)
+		toni.sodiumdynamiclights.mixin.MinecraftClientMixin (mixins.sodiumdynamiclights.json)
+		net.spell_engine.mixin.client.control.SpellHotbarMinecraftClient (spell_engine.mixins.json)
+		net.fabricmc.fabric.mixin.networking.client.accessor.MinecraftClientAccessor (fabric-networking-api-v1.client.mixins.json)
+		dev.architectury.mixin.forge.MixinMinecraft (architectury.mixins.json)
+		dev.su5ed.sinytra.connectorextras.archbridge.mixin.MinecraftMixin (connectorextras_architectury_bridge.mixins.json)
+		gtlugo.readyaimfire.mixin.client.ExampleClientMixin (readyaimfire.client.mixins.json)
+		io.github.thecsdev.tcdcommons.client.mixin.events.MixinMinecraftClient (tcdcommons.client.mixin.events.json)
+		traben.entity_texture_features.mixin.reloading.MixinMinecraftClient (entity_texture_features-common.mixins.json)
+		de.siphalor.mousewheelie.client.mixin.MixinMinecraftClient (mousewheelie.mixins.json)
+		rogo.renderingculling.mixin.MixinMinecraft (mixins.bfrc.json)
+		net.fabric_extras.ranged_weapon.mixin.client.MinecraftClientMixin (ranged_weapon_api.mixins.json)
+		net.spell_engine.mixin.client.action_impair.MinecraftClientActionImpairing (spell_engine.mixins.json)
+		dev.latvian.mods.kubejs.core.mixin.common.MinecraftClientMixin (kubejs-common.mixins.json)
+		dev.imb11.sounds.mixin.ui.ScreenSoundEffect (sounds.mixins.json)
+		net.raphimc.immediatelyfast.injection.mixins.core.MixinMinecraftClient (immediatelyfast-common.mixins.json)
+		net.fabricmc.fabric.mixin.screen.MinecraftClientMixin (fabric-screen-api-v1.mixins.json)
+		org.embeddedt.modernfix.common.mixin.bugfix.concurrency.MinecraftMixin (modernfix-common.mixins.json)
+		me.jellysquid.mods.sodium.mixin.core.MinecraftClientMixin (embeddium.mixins.json)
+		org.embeddedt.modernfix.common.mixin.feature.measure_time.MinecraftMixin (modernfix-common.mixins.json)
+		rogo.renderingculling.mixin.AccessorMinecraft (mixins.bfrc.json)
+		traben.entity_sound_features.mixin.MixinResourceReload (entity_sound_features-common.mixins.json)
+		dev.isxander.yacl3.mixin.MinecraftMixin (yacl.mixins.json)
+		dev.su5ed.sinytra.connectorextras.geckolibcompat.mixin.MinecraftMixin (mixins.connectorextras_geckolib_fabric_compat.json)
+		net.F53.HorseBuff.mixin.Client.InventoryAccessor (horsebuff.mixins.json)
+		com.sonicether.soundphysics.mixin.MinecraftMixin (sound_physics_remastered.mixins.json)
+		dev.su5ed.sinytra.connectorextras.kubejs.mixin.MinecraftMixin (mixins.connectorextras_kubejs_bridge.json)
+		glitchcore.mixin.client.MixinMinecraft (glitchcore.mixins.json)
+		org.embeddedt.modernfix.common.mixin.perf.dedicated_reload_executor.MinecraftMixin (modernfix-common.mixins.json)
+		fishcute.celestial.mixin.MinecraftMixin (celestial.mixins.json)
+		me.jellysquid.mods.sodium.mixin.core.render.MinecraftAccessor (embeddium.mixins.json)
+		net.fabricmc.fabric.mixin.registry.sync.client.MinecraftClientMixin (fabric-registry-sync-v0.client.mixins.json)
+		de.siphalor.amecs.impl.mixin.MixinMinecraftClient (amecsapi.mixins.json)
+		io.github.cottonmc.cotton.gui.impl.mixin.client.MinecraftClientMixin (mixins.libgui.json)
+		org.sinytra.connector.mod.mixin.registries.MinecraftMixin (connectormod.mixins.json)
+		net.satisfy.brewery.mixin.rope.PickMixin (brewery-common.mixins.json)
+		net.fabricmc.fabric.mixin.event.interaction.client.MinecraftClientMixin (fabric-events-interaction-v0.client.mixins.json)
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.19041.4355:Microsoft Corporation
+		CoreUIComponents.dll:Microsoft Core UI Components Dll:10.0.19041.3636:Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.19041.4474 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL Utility Library DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.19041.4474 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.19041.4842 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.19041.4842 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.24080.9 (f49fb7de0d838aeebbdbd940314a35a90705840e):Microsoft Corporation
+		NLAapi.dll:Network Location Awareness 2:10.0.19041.4123 (WinBuild.160101.0800):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		POWRPROF.dll:Power Profile Helper DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		PROPSYS.dll:Microsoft Property System:7.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Performance Data Helper DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		SETUPAPI.dll:Windows Setup API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.19041.4957 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.29.30135.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINSTA.dll:Winstation Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		WINTRUST.dll:Microsoft Trust Verification APIs:10.0.19041.4957 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		WTSAPI32.dll:Windows Remote Desktop Session Host Server SDK APIs:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		Wldp.dll:Windows Lockdown Policy:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.19041.5007 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.19041.3996 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		cryptbase.dll:Base cryptographic API DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		cryptnet.dll:Crypto Network Related API:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:DHCP Client Service:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:DHCPv6 Client:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		drvstore.dll:Driver Store API:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		dwmapi.dll:Microsoft Desktop Window Manager API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.19041.4474 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		fwpuclnt.dll:FWP/IPsec User-Mode API:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.19041.4957 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		imagehlp.dll:Windows NT Image Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		inputhost.dll:InputHost:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		java.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		javaw.exe:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		jemalloc.dll
+		jimage.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		jli.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		jna11916995295426534695.dll:JNA native library:6.1.4:Java(TM) Native Access (JNA)
+		jsvml.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		jvm.dll:Zulu 64-Bit Server VM:17.0.12:Azul Systems Inc.
+		kernel.appcore.dll:AppModel API Host:10.0.19041.3758 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		management_ext.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		msasn1.dll:ASN.1 Runtime APIs:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.29.30135.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		nio.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		ntdll.dll:NT Layer DLL:10.0.19041.4842 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		nvgpucomp64.dll:NVIDIA GPU Compiler Driver, Version 560.94 :32.0.15.6094:NVIDIA Corporation
+		nvoglv64.dll:NVIDIA Compatible OpenGL ICD:32.0.15.6094:NVIDIA Corporation
+		ole32.dll:Microsoft OLE for Windows:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		opengl32.dll:OpenGL Client DLL:10.0.19041.4957 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows System Performance Objects DLL:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP Name Space Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.19041.4355 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.19041.4957 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme Library:10.0.19041.4529 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.29.30135.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+		win32u.dll:Win32u:10.0.19041.5007 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows Base Types DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.19041.3636 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:Microsoft Common Controller API:10.0.19041.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:Zulu Platform x64 Architecture:17.0.12:Azul Systems Inc.
+Stacktrace:
+	at net.minecraft.client.main.Main.main(Main.java:182) ~[1.20.1-47.3.11.jar:?] {re:mixin,pl:connector_pre_launch:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:mixins.emibridge.json:MainEntrypointMixin from mod connectorextras_emi_bridge,pl:mixin:A,pl:connector_pre_launch:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.3.11.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+
+Mixins in Stacktrace:
+	net.minecraft.client.main.Main:
+		dev.su5ed.sinytra.connectorextras.emibridge.mixin.MainEntrypointMixin (mixins.emibridge.json)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.12, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 411943232 bytes (392 MiB) / 1207959552 bytes (1152 MiB) up to 16911433728 bytes (16128 MiB)
+	CPUs: 24
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 9 5900X 12-Core Processor            
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.70
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 24
+	Graphics card #0 name: Virtual Desktop Monitor
+	Graphics card #0 vendor: Virtual Desktop, Inc.
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: DriverVersion=10.54.50.446
+	Graphics card #1 name: NVIDIA GeForce GTX 980 Ti
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x17c8
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.6094
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 38837.36
+	Virtual memory used (MB): 16471.64
+	Swap memory total (MB): 6144.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx16128M
+	Launched Version: 1.20.1
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Sinytra Connector: 1.0.0-beta.46+1.20.1
+		SINYTRA CONNECTOR IS PRESENT!
+		Please verify issues are not caused by Connector before reporting them to mod authors. If you're unsure, file a report on Connector's issue tracker.
+		Connector's issue tracker can be found at https://github.com/Sinytra/Connector/issues.
+		Installed Fabric mods:
+		| ================================================== | ============================== | ============================== | ==================== |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-f | Connectored Concurrent Chunk M | c2me_fixes_worldgen_threading_ | 0.2.0-c3me-alpha.11. |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21_mapped | Fabric Language Kotlin         | fabric_language_kotlin         | 1.12.3kotlin.2.0.21  |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-r | Connectored Concurrent Chunk M | c2me_rewrites_chunk_serializer | 0.2.0-c3me-alpha.11. |
+		| eating-animation-1.20+1.9.61_mapped_srg_1.20.1.jar | Eating Animation               | eatinganimationid              | 1.201.9.61           |
+		| readyaimfire-1.0.0_mapped_srg_1.20.1.jar           | Ready Aim Fire                 | readyaimfire                   | 1.0.0                |
+		| mousewheelie-1.13.0+mc1.20.1$tweed4-tailor-screen- | tweed4_tailor_screen           | tweed4_tailor_screen           | 1.1.4mc1.20-pre1     |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-f | Connectored Concurrent Chunk M | c2me_fixes_general_threading_i | 0.2.0-c3me-alpha.11. |
+		| tcdcommons-3.12.3+fabric-1.20.1_mapped_srg_1.20.1. | TCD Commons API                | tcdcommons                     | 3.12.3fabric-1.20.1  |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-b | Connectored Concurrent Chunk M | c2me_base                      | 0.2.0-c3me-alpha.11. |
+		| cloth-config-11.1.136-fabric_mapped_srg_1.20.1.jar | Cloth Config v11               | cloth_config                   | 11.1.136             |
+		| horsearmorstandmod-1.0.2-1.20.1_mapped_srg_1.20.1. | Horse Armor Stand Mod          | horsearmorstandmod             | 1.0.2-1.20.1         |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-coroutines-jdk8        | org_jetbrains_kotlinx_kotlinx_ | 1.9.0                |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-serialization-core-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.7.3                |
+		| chatanimation-1.0.5_mapped_srg_1.20.1.jar          | ChatAnimation                  | chatanimation                  | 1.0.5                |
+		| RecipeCooldown-1.0.0_mapped_srg_1.20.1.jar         | Recipe Cooldown                | recipecooldown                 | 1.17.1-1.0.0         |
+		| data-attributes-2.0.2+1.20.1-fabric_mapped_srg_1.2 | Data Attributes: Directors Cut | data_attributes                | 2.0.21.20.1-fabric   |
+		| mousewheelie-1.13.0+mc1.20.1$tweed4-tailor-coat-1. | tweed4_tailor_coat             | tweed4_tailor_coat             | 1.1.3mc1.20-pre1     |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$asyncu | asyncutil                      | com_ibm_async_asyncutil        | 0.1.0                |
+		| spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar  | Spell Engine                   | spell_engine                   | 0.15.111.20.1        |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-t | Connectored Concurrent Chunk M | c2me_threading_lighting        | 0.2.0-c3me-alpha.11. |
+		| instantgroup-fabric-1.20.1-1.6.0$admiral-0.4.4+1.2 | Admiral                        | admiral                        | 0.4.41.20.1          |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-serialization-json-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.7.3                |
+		| mousewheelie-1.13.0+mc1.20.1$tweed4-annotated-1.20 | tweed4_annotated               | tweed4_annotated               | 1.3.1mc1.20-pre1     |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-o | Connectored Concurrent Chunk M | c2me_opts_worldgen_vanilla     | 0.2.0-c3me-alpha.11. |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-o | Connectored Concurrent Chunk M | c2me_opts_scheduling           | 0.2.0-c3me-alpha.11. |
+		| mousewheelie-1.13.0+mc1.20.1$tweed4-tailor-lang-js | tweed4_tailor_lang_json_descri | tweed4_tailor_lang_json_descri | 1.1.0mc1.20-pre1     |
+		| horse-stats-vanilla-4.3.0_mapped_srg_1.20.1.jar    | Horse Stats Vanilla            | horsestatsvanilla              | 4.3.0                |
+		| horse-stats-vanilla-4.3.0$LibGui-8.0.0+1.20$Jankso | Jankson                        | jankson                        | 5.0.1j1.2.2          |
+		| Stfu-1.2.3_mapped_srg_1.20.1.jar                   | Stfu                           | stfu                           | 1.2.3                |
+		| horse-stats-vanilla-4.3.0$LibGui-8.0.0+1.20$libnin | LibNinePatch                   | libninepatch                   | 1.2.0                |
+		| data-attributes-2.0.2+1.20.1-fabric$endec-0.1.7_ma | endec                          | io_wispforest_endec            | 0.1.7                |
+		| horse-stats-vanilla-4.3.0$LibGui-8.0.0+1.20_mapped | LibGui                         | libgui                         | 8.0.01.20            |
+		| mousewheelie-1.13.0+mc1.20.1$tweed4-data-1.20-1.2. | tweed4_data                    | tweed4_data                    | 1.2.1mc1.20-pre1     |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-n | Connectored Concurrent Chunk M | c2me_notickvd                  | 0.2.0-c3me-alpha.11. |
+		| mana-attributes-1.3.0_mapped_srg_1.20.1.jar        | Mana Attributes                | manaattributes                 | 1.3.0                |
+		| horse-stats-vanilla-4.3.0$LibGui-8.0.0+1.20$Jankso | jankson                        | blue_endless_jankson           | 1.2.2                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-t | Connectored Concurrent Chunk M | c2me_threading_worldgen        | 0.2.0-c3me-alpha.11. |
+		| PresenceFootsteps-1.9.4+1.20.1$kirin-1.15.6+1.20.1 | Kirin UI                       | kirin                          | 1.15.61.20.1         |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlin-reflect                 | org_jetbrains_kotlin_kotlin_re | 2.0.21               |
+		| mixintrace-1.1.1+1.17_mapped_srg_1.20.1.jar        | MixinTrace                     | mixintrace                     | 1.1.11.17            |
+		| data-attributes-2.0.2+1.20.1-fabric$owo-sentinel-0 | oωo-sentinel                   | owo_sentinel                   | 0.11.21.20           |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-coroutines-core-jvm    | org_jetbrains_kotlinx_kotlinx_ | 1.9.0                |
+		| chatanimation-1.0.5$mixinextras-fabric-0.2.0-beta. | MixinExtras                    | com_github_llamalad7_mixinextr | 0.2.0-beta.9         |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-o | Connectored Concurrent Chunk M | c2me_opts_math                 | 0.2.0-c3me-alpha.11. |
+		| herdspanic-1.1.0_mapped_srg_1.20.1.jar             | Herds Panic                    | herdspanic                     | 1.1.0                |
+		| mousewheelie-1.13.0+mc1.20.1$tweed4-base-1.20-1.7. | tweed4_base                    | tweed4_base                    | 1.7.1mc1.20-pre1     |
+		| cloth-config-11.1.136-fabric$basic-math-0.6.1_mapp | cloth-basic-math               | cloth_basic_math               | 0.6.1                |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$atomic | atomicfu-jvm                   | org_jetbrains_kotlinx_atomicfu | 0.25.0               |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-f | Connectored Concurrent Chunk M | c2me_fixes_worldgen_vanilla_bu | 0.2.0-c3me-alpha.11. |
+		| horseshoes-1.0.3_mapped_srg_1.20.1.jar             | Horseshoes                     | horseshoes                     | 1.0.3                |
+		| HorseBuff-1.20-2.1.2_mapped_srg_1.20.1.jar         | HorseBuff                      | horsebuff                      | 2.1.2                |
+		| morechathistory-1.3.0_mapped_srg_1.20.1.jar        | More Chat History              | morechathistory                | 1.3.0                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-f | Connectored Concurrent Chunk M | c2me_fixes_chunkio_threading_i | 0.2.0-c3me-alpha.11. |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-c | Connectored Concurrent Chunk M | c2me_client_uncapvd            | 0.2.0-c3me-alpha.11. |
+		| head-name-fix-1.20-1.2.2_mapped_srg_1.20.1.jar     | Head name fix                  | headfix                        | 1.2.2                |
+		| spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar    | Spell Power Attribute          | spell_power                    | 0.12.01.20.1         |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-serialization-cbor-jvm | org_jetbrains_kotlinx_kotlinx_ | 1.7.3                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$toml-3 | toml                           | com_electronwill_night_config_ | 3.6.5                |
+		| mousewheelie-1.13.0+mc1.20.1_mapped_srg_1.20.1.jar | Mouse Wheelie                  | mousewheelie                   | 1.13.0mc1.20.1       |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$thread | threadly                       | org_threadly_threadly          | 7.0                  |
+		| instantgroup-fabric-1.20.1-1.6.0_mapped_srg_1.20.1 | Simple Voice Chat Enhanced Gro | enhancedgroups                 | 1.20.1-1.6.0         |
+		| spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2_mappe | TinyConfig                     | com_github_zsoltmolnarrr_tinyc | 2.3.2                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-r | Connectored Concurrent Chunk M | c2me_rewrites_chunkio          | 0.2.0-c3me-alpha.11. |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlin-stdlib                  | org_jetbrains_kotlin_kotlin_st | 2.0.21               |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-o | Connectored Concurrent Chunk M | c2me_opts_allocs               | 0.2.0-c3me-alpha.11. |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlin-stdlib-jdk8             | org_jetbrains_kotlin_kotlin_st | 2.0.21               |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlin-stdlib-jdk7             | org_jetbrains_kotlin_kotlin_st | 2.0.21               |
+		| overhauled-damage-1.5.0_mapped_srg_1.20.1.jar      | Overhauled Damage              | overhauleddamage               | 1.5.0                |
+		| celestial_1.19.4_fabric-2.0_mapped_srg_1.20.1.jar  | Celestial                      | celestial                      | 2.0                  |
+		| tooltipfix-1.1.1-1.20_mapped_srg_1.20.1.jar        | ToolTip Fix                    | tooltipfix                     | 1.1.1-1.20           |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$core-3 | core                           | com_electronwill_night_config_ | 3.6.5                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-t | Connectored Concurrent Chunk M | c2me_threading_chunkio         | 0.2.0-c3me-alpha.11. |
+		| interactic-0.2.0+1.20_mapped_srg_1.20.1.jar        | Interactic                     | interactic                     | 0.2.01.20            |
+		| mousewheelie-1.13.0+mc1.20.1$tweed4-data-hjson-1.2 | tweed4_data_hjson              | tweed4_data_hjson              | 1.1.1mc1.20-pre1     |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-datetime-jvm           | org_jetbrains_kotlinx_kotlinx_ | 0.6.1                |
+		| mousewheelie-1.13.0+mc1.20.1$coat-1.20-1.0.0-beta. | Coat                           | coat                           | 1.0.0-beta.20mc1.20- |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-o | Connectored Concurrent Chunk M | c2me_opts_chunk_access         | 0.2.0-c3me-alpha.11. |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-io-bytestring-jvm      | org_jetbrains_kotlinx_kotlinx_ | 0.5.4                |
+		| taverntokens-1.0.3_mapped_srg_1.20.1.jar           | TavernTokens                   | taverntokens                   | 1.0.3                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-s | Connectored Concurrent Chunk M | c2me_server_utils              | 0.2.0-c3me-alpha.11. |
+		| fabric-language-kotlin-1.12.3+kotlin.2.0.21$kotlin | kotlinx-io-core-jvm            | org_jetbrains_kotlinx_kotlinx_ | 0.5.4                |
+		| betterstats-3.12.6+fabric-1.20.1_mapped_srg_1.20.1 | Better Statistics Screen       | betterstats                    | 3.12.6fabric-1.20.1  |
+		| ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.j | RangedWeaponAPI                | ranged_weapon_api              | 1.1.41.20.1          |
+		| data-attributes-2.0.2+1.20.1-fabric$netty-0.1.3_ma | netty                          | io_wispforest_endec_netty      | 0.1.3                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-o | Connectored Concurrent Chunk M | c2me_opts_worldgen_general     | 0.2.0-c3me-alpha.11. |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61_mapped | Connectored Concurrent Chunk M | c3me                           | 0.2.0-c3me-alpha.11. |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$c2me-o | Connectored Concurrent Chunk M | c2me_opts_chunkio              | 0.2.0-c3me-alpha.11. |
+		| stamina-attributes-1.3.0_mapped_srg_1.20.1.jar     | Stamina Attributes             | staminaattributes              | 1.3.0                |
+		| c3me-fabric-mc1.20.1-0.2.0-c3me-alpha.11.61$exp4j- | exp4j                          | net_objecthunter_exp4j         | 0.4.8                |
+		| PresenceFootsteps-1.9.4+1.20.1_mapped_srg_1.20.1.j | Presence Footsteps             | presencefootsteps              | 1.9.41.20.1          |

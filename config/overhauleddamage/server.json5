@@ -1,0 +1,307 @@
+{
+	/* When set to 'true', taking damage interrupts the using of items
+	   Does not apply when the player is blocking or when damage is in
+	   "is_true_damage" tag.
+	*/
+	"damage_interrupts_item_usage": true,
+	// Set to 'true' for the vanilla behaviour
+	"disable_jump_crit_mechanic": true,
+	// When set to 'true', blocking requires the player to have at least 1 stamina.
+	"blocking_requires_stamina": true,
+	// This status effect is applied when the bleeding build-up reaches the threshold
+	"bleeding_status_effect_identifier": "variousstatuseffects:bleeding",
+	// This status effect is applied when the burning build-up reaches the threshold
+	"burning_status_effect_identifier": "variousstatuseffects:burning",
+	// This status effect is applied when frost damage is received
+	"chilled_status_effect_identifier": "variousstatuseffects:chilled",
+	// This status effect is applied when the freeze build-up reaches the threshold
+	"frozen_status_effect_identifier": "variousstatuseffects:frozen",
+	// This status effect is applied when the poison build-up reaches the threshold
+	"poison_status_effect_identifier": "variousstatuseffects:poison",
+	// This status effect is applied when the shock build-up reaches the threshold
+	"shocked_status_effect_identifier": "variousstatuseffects:shocked",
+	// This status effect is applied when the stagger build-up reaches the threshold
+	"staggered_status_effect_identifier": "variousstatuseffects:staggered",
+	// This status effect prevents all fall damage
+	"fall_immune_status_effect_identifier": "variousstatuseffects:fall_immune",
+	// This status effect multiplies incoming damage based on its amplifier
+	"calamity_status_effect_identifier": "variousstatuseffects:calamity",
+	/* Damage types in this map use the corresponding multipliers when calculating the different elemental and physical damage amounts inflicted by that damage type.
+	   
+	   The array must contain exactly seven (7) values.
+	   They correspond to the physical/elemental damages like so:
+	   {bashing, piercing, slashing, poison, fire, frost, lightning}
+	*/
+	"damage_type_multipliers": {
+		"minecraft:arrow": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:bad_respawn_point": [
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:cactus": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:explosion": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:falling_anvil": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:falling_block": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:falling_stalactite": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:fireball": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			1.0,
+			0.0,
+			0.0
+		],
+		"minecraft:fireworks": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:fly_into_wall": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:hot_floor": [
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			1.0,
+			0.0,
+			0.0
+		],
+		"minecraft:in_fire": [
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			1.0,
+			0.0,
+			0.0
+		],
+		"minecraft:lightning_bolt": [
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			1.0
+		],
+		"minecraft:mob_attack": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:mob_attack_no_aggro": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:mob_projectile": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:player_attack": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:player_explosion": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:spit": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:stalagmite": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:sting": [
+			0.0,
+			1.0,
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:sweet_berry_bush": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:thorns": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:thrown": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:trident": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:unattributed_fireball": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"minecraft:wither_skull": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"overhauleddamage:mob_bashing_damage_type": [
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"overhauleddamage:mob_piercing_damage_type": [
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		],
+		"overhauleddamage:mob_slashing_damage_type": [
+			0.0,
+			0.0,
+			1.0,
+			0.0,
+			0.0,
+			0.0,
+			0.0
+		]
+	}
+}

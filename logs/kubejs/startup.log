@@ -1,0 +1,21 @@
+[16:02:29] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[16:02:29] [INIT] Loaded plugins:
+[16:02:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:02:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:02:29] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[16:02:29] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[16:02:29] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[16:02:29] [INIT] - com.almostreliable.morejs.Plugin
+[16:02:29] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[16:02:29] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[16:02:29] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[16:02:29] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:02:29] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
+[16:02:29] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[16:02:29] [INFO] Loaded script startup_scripts:runefall_additions/blocks/treated_planks/register_treated_planks.js in 0.036 s
+[16:02:29] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/nails/register_nails.js in 0.001 s
+[16:02:29] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/oils/register_oils.js in 0.001 s
+[16:02:29] [INFO] Loaded 3/3 KubeJS startup scripts in 0.464 s with 0 errors and 0 warnings
+[16:02:30] [INFO] runefall_additions/blocks/treated_planks/register_treated_planks.js#15: Registered Treated Planks
+[16:02:30] [INFO] runefall_additions/items/crafting_materials/nails/register_nails.js#9: Registered Nail Items
+[16:02:30] [INFO] runefall_additions/items/crafting_materials/oils/register_oils.js#15: Registered Oil Items

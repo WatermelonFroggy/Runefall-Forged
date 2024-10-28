@@ -1,0 +1,7 @@
+{
+	/* When set to false, re-enables the vanilla food system.
+	   
+	   Note that a sufficiently full hunger bar and your health regeneration attribute will both regenerate your health.
+	*/
+	"disable_vanilla_food_system": false
+}

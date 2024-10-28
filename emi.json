@@ -1,0 +1,28 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:minecraft:cobblestone",
+    "#item:minecraft:planks",
+    "item:runefall:light_treated_planks",
+    "item:runefall:copper_nails",
+    "item:delightful:animal_oil_bottle",
+    "item:delightful:animal_fat",
+    "item:netherite_ore_mod:large_ancient_shard",
+    "item:netherite_ore_mod:ancientdebrispiece",
+    "item:netherite_ore_mod:deepslate_ancient_debris_ore",
+    "item:minecraft:netherite_ingot",
+    "item:minecraft:netherite_scrap",
+    "item:minecraft:ancient_debris",
+    "item:minecraft:mutton{\"spoiled:SpoilMaxTime\":40,\"spoiled:SpoilTimer\":5}",
+    "item:vintageimprovements:centrifuge",
+    "item:molten_metals:ceramic_ingot_mold"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

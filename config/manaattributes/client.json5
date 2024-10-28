@@ -1,0 +1,15 @@
+{
+	"show_mana_bar": true,
+	"show_full_mana_bar": true,
+	"dynamically_adjust_to_armor_bar": true,
+	"mana_bar_additional_length": 172,
+	"mana_bar_x_offset": -91,
+	"mana_bar_y_offset": -45,
+	"enable_smooth_animation": true,
+	"mana_bar_animation_interval": 1,
+	"show_current_value_overlay": true,
+	"show_mana_bar_number": true,
+	"mana_bar_number_color": -6250336,
+	"mana_bar_number_x_offset": 0,
+	"mana_bar_number_y_offset": -46
+}
