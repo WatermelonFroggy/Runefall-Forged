@@ -1,0 +1,68 @@
+Primitive Tier:
+	Wood Planks: Basic wood for primitive tools.
+	Cobblestone: Base stone material.
+	Animal Fat: Early form of primitive oil, sourced from animals.
+	Rough Rope: Basic string material, crafted from plant fibers.
+	Plant Fiber: Sourced from grass or plants, used for basic crafting.
+	Simple Hide: Basic leather from animals, useful for primitive armor.
+	Quick Lime: Versatile powder used in construction and crafting.
+
+Basic Tier:
+	Lime Mortar: Masonry mortar composed of quick lime and sand, mixed with water.
+	Andesite Alloy: Alloy crafted from andesite and iron nuggets, essential for early machines.
+	Andesite Casings: Andesite structures that serve as basic protective exteriors for machines.
+	Treated Planks: More durable, water-resistant wood.
+	Mortared Stone: Stronger stone held together with a Lime Mortar mixture.
+	Copper Nails: Basic metal nails for reinforcing structures.
+	Basic Oil: Oil treated from simple ingredients, such as plant oils.
+	Sinew Rope: Stronger rope from animal sinew, holds up to heavier loads.
+	Wrought Iron: Unrefined iron used for primitive metal crafting.
+	Resin Glue: Sticky substance from tree resin, useful for construction.
+	Leather Strips: Treated leather for bindings and reinforcement.
+
+Refined Tier:
+	Clay Mortar: Masonry Mortar composed of Quick Lime and Crushed Stone, mixed with Clay and Water.
+	Refined Andesite Alloy: Stronger alloy that allows for higher RPMs, crafted from Andesite Alloy and Refined Oil.
+	Bronze Alloy: Durable alloy of copper and tin for making advanced components.
+	Hardened Stone: Refined stone, denser and more durable for mid-tier machines.
+	Refined Oil: Higher-grade oil for lubricating advanced machines.
+	Bronze Nails: Stronger nails crafted from bronze, useful for reinforced machines.
+	Iron Rivets: Iron fasteners for assembling machine parts.
+	Pressed Wood: Strong wood reinforced with bronze nails, good for supports.
+	Refined Resin: Enhanced resin for mid-tier construction.
+	Iron-Bound Timber: Wood reinforced with iron bindings for extra strength.
+
+Advanced Tier:
+	Ashlar Stone: A polished, refined block made from mixing Mortared Stone, Hardened Stone, Clay Mortar, Refinded Oil, and Iron-Bound Timber.
+	Brass Alloy: Alloy of copper and zinc, critical for precise machinery and complex components.
+	Steel Ingots: Strong, refined metal for high-RPM machines.
+	Forged Timber: Treated wood with burn resistance, crafted for heavy use.
+	Alchemical Oil: Specialized oil used for high-tier machinery, possibly infused with rare herbs.
+	Iron Bands: Metal bands used to reinforce complex machine structures.
+	Steel Gears: Durable gears made from steel, used in precision machinery.
+	Machine Bolts: Steel bolts used for secure machine construction.
+	Silicon Glass: Heat-resistant glass for advanced machinery.
+	Hardwood Timber: Refined timber with high durability.
+
+Exquisite Tier:
+	Enchanted Mortar: Masonry Mortar composed of Quick Lime, Obsidian Dust, and Crushed Gemstones, mixed with Clay and Water in an Enchanted Basin.
+	Elderwood: Legendary, resilient wood with magical properties.
+	Mythril Alloy: Rare, magical alloy with high strength and durability.
+	Enchanted Stone: Stone infused with magical properties, ideal for magical machines. Found in high mana density underground areas.
+	Enchanted Hardened Stone: Stone infused with magical properties, ideal for magical machines. Found in extremely high mana density underground areas.
+	Exquisite Oil: Oil with rare ingredients for mystical machines.
+	Brass Casings: Brass structures that serve as protective exteriors for machines.
+	Silvered Plating: Decorative and functional silver-coated metal for high-tier machines.
+	Arcane Resin: Resin with magical qualities, used in crafting. Found in high mana density forest areas
+	Bearings: Strong bearings made from steel and brass for even faster machine rotation.
+
+Flawless Tier:
+	Elderash Mortar: Masonry Mortar composed of Quick Lime, Elderwood Ash, and Obsidian Dust, mixed with Clay and Water in an Enchanted Basin.
+	Enchanted Mortared Stone: Enchanted Stone held together with an Enchanted Mortar mixture.
+	Ashlar Manastone: A polished, enchanted block made from mixing Enchanted Mortared Stone, Enchanted Hardened Stone, Elderash Mortar, and Exquisite Oil.
+	Elderwood Oil: High-quality oil, used for the most advanced machinery.
+	Manasteel: Steel alloy with magical properties, great for late-game machines.
+	Elderwood Timber: Magical timber that’s highly resistant to elements.
+	Arcane Plating: Enchanted high duribility metal plating.
+	Mana Threads: Magical threads for binding enchanted materials.
+	Dragonhide Straps: Durable straps, ideal for the highest tier of machines.

@@ -1,0 +1,80 @@
+StartupEvents.registry('block', event => {
+	
+	// Limestone Sand - Primitive Tier
+	event.create('runefall:limestone_sand')
+		.displayName('Limestone Sand')
+		.soundType('sand')
+		.hardness(0.5)
+		.resistance(0.5)
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/shovel')
+		.textureAll('runefall:block/misc/limestone_sand')
+	
+	
+	// Bronze Alloy Block - Refined Tier
+	event.create('runefall:bronze_alloy_block')
+		.displayName('Bronze Alloy Block')
+		.soundType('metal')
+		.hardness(6.0)
+		.resistance(8.0)
+		.tagBoth('runefall:alloy_blocks')
+		.tagBoth('runefall:alloy_blocks/tiers/refined')
+		.requiresTool(true)
+		.tagBlock('minecraft:needs_stone_tool')
+		.tagBlock('minecraft:mineable/pickaxe')
+		.textureAll('runefall:block/misc/bronze_alloy_block')
+	
+	// Refined Andesite Alloy Block - Refined Tier
+	event.create('runefall:refined_andesite_alloy_block')
+		.displayName('Refined Andesite Alloy Block')
+		.soundType('metal')
+		.hardness(4.0)
+		.resistance(6.0)
+		.tagBoth('runefall:alloy_blocks')
+		.tagBoth('runefall:alloy_blocks/tiers/refined')
+		.requiresTool(true)
+		.tagBlock('minecraft:needs_stone_tool')
+		.tagBlock('minecraft:mineable/pickaxe')
+		.textureAll('runefall:block/misc/refined_andesite_alloy_block')
+
+	// Steel Block - Advanced Tier
+	event.create('runefall:steel_block')
+		.displayName('Steel Block')
+		.soundType('metal')
+		.hardness(8.0)
+		.resistance(16.0)
+		.tagBoth('runefall:alloy_blocks')
+		.tagBoth('runefall:alloy_blocks/tiers/advanced')
+		.requiresTool(true)
+		.tagBlock('minecraft:needs_iron_tool')
+		.tagBlock('minecraft:mineable/pickaxe')
+		.textureAll('runefall:block/misc/steel_block')
+
+	// Mythril Alloy Block - Exquisite Tier
+	event.create('runefall:mythril_alloy_block')
+		.displayName('Mythril Alloy Block')
+		.soundType('metal')
+		.hardness(12.0)
+		.resistance(32.0)
+		.tagBoth('runefall:alloy_blocks')
+		.tagBoth('runefall:alloy_blocks/tiers/exquisite')
+		.requiresTool(true)
+		.tagBlock('minecraft:needs_iron_tool')
+		.tagBlock('minecraft:mineable/pickaxe')
+		.textureAll('runefall:block/misc/mythril_alloy_block')
+
+	// Manasteel Block - Flawless Tier
+	event.create('runefall:manasteel_block')
+		.displayName('Manasteel Block')
+		.soundType('metal')
+		.hardness(16.0)
+		.resistance(64.0)
+		.tagBoth('runefall:alloy_blocks')
+		.tagBoth('runefall:alloy_blocks/tiers/flawless')
+		.requiresTool(true)
+		.tagBlock('minecraft:needs_diamond_tool')
+		.tagBlock('minecraft:mineable/pickaxe')
+		.textureAll('runefall:block/misc/manasteel_block')
+	
+	console.log('Registered Misc Blocks')
+})

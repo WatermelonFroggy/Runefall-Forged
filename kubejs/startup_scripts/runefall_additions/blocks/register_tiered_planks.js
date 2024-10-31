@@ -1,0 +1,88 @@
+StartupEvents.registry('block', event => {
+	
+	// Light Treated Planks - Basic Tier
+	event.create('runefall:light_treated_planks')
+		.displayName('Light Treated Planks')
+		.soundType('wood')
+		.hardness(1.8)
+		.resistance(3.0)
+		.tagBoth('runefall:tiered_planks')
+		.tagBoth('runefall:tiered_planks/tiers/basic')
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/axe')
+		.textureAll('runefall:block/tiered_planks/light_treated_planks')
+	
+	// Pressed Wood - Refined Tier
+	event.create('runefall:pressed_wood')
+		.displayName('Pressed Wood')
+		.soundType('wood')
+		.hardness(2.5)
+		.resistance(4.5)
+		.tagBoth('runefall:tiered_planks')
+		.tagBoth('runefall:tiered_planks/tiers/refined')
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/axe')
+		.textureAll('runefall:block/tiered_planks/pressed_wood')
+	
+	// Iron-Bound Timber - Refined Tier
+	event.create('runefall:ironbound_timber')
+		.displayName('Iron-Bound Timber')
+		.soundType('wood')
+		.hardness(3.0)
+		.resistance(5.5)
+		.tagBoth('runefall:tiered_planks')
+		.tagBoth('runefall:tiered_planks/tiers/refined')
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/axe')
+		.textureAll('runefall:block/tiered_planks/ironbound_timber')
+	
+	// Pressed Wood - Advanced Tier
+	event.create('runefall:forged_timber')
+		.displayName('Forged Timber')
+		.soundType('wood')
+		.hardness(3.5)
+		.resistance(8.0)
+		.tagBoth('runefall:tiered_planks')
+		.tagBoth('runefall:tiered_planks/tiers/advanced')
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/axe')
+		.textureAll('runefall:block/tiered_planks/forged_timber')
+	
+	// Hardwood Timber - Advanced Tier
+	event.create('runefall:hardwood_timber')
+		.displayName('Hardwood Timber')
+		.soundType('wood')
+		.hardness(4.0)
+		.resistance(8.0)
+		.tagBoth('runefall:tiered_planks')
+		.tagBoth('runefall:tiered_planks/tiers/advanced')
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/axe')
+		.textureAll('runefall:block/tiered_planks/hardwood_timber')
+
+	// Elderwood - Exquisite Tier
+	event.create('runefall:elderwood')
+		.displayName('Elderwood')
+		.soundType('wood')
+		.hardness(6.0)
+		.resistance(16.0)
+		.tagBoth('runefall:tiered_planks')
+		.tagBoth('runefall:tiered_planks/tiers/exquisite')
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/axe')
+		.textureAll('runefall:block/tiered_planks/elderwood')
+	
+	// Elderwood Timber - Flawless Tier
+	event.create('runefall:elderwood_timber')
+		.displayName('Elderwood Timber')
+		.soundType('wood')
+		.hardness(8.0)
+		.resistance(24.0)
+		.tagBoth('runefall:tiered_planks')
+		.tagBoth('runefall:tiered_planks/tiers/flawless')
+		.requiresTool(false)
+		.tagBlock('minecraft:mineable/axe')
+		.textureAll('runefall:block/tiered_planks/elderwood_timber')
+	
+	console.log('Registered Tiered Plank Blocks')
+})

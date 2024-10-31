@@ -1,0 +1,47 @@
+Primitive Tier:
+	Hand Crank: Simple manual power source for very basic machines.
+	Cogwheel & Large Cogwheel: Fundamental rotation components to transmit power.
+	Shaft: Connects rotation across devices, enabling basic movement.
+	Millstone: Early grinding device for processing simple materials.
+	Depot: Simple item holder, primarily used for holding items in basic machines.
+
+Basic Tier:
+	Water Wheel: Basic, passive power generation using flowing water.
+	Mechanical Saw: Cuts logs and other resources, useful for early automation.
+	Mechanical Piston: Adds linear motion capabilities for expanding machinery.
+	Mechanical Press: Basic compression and crafting of items, vital for crafting components.
+	Encased Fan: Generates airflow for processes like smelting or washing.
+	Chute: Transports items vertically, useful in early setups.
+	Mechanical Belt: Transfers items between machines, making automation more efficient.
+
+Refined Tier:
+	Blaze Burner: Provides ultra-high temperatures for late-game metalwork.
+	Mechanical Mixer: Mixes and alloys materials, essential for mid-tier crafting.
+	Mechanical Drill: For mining and breaking blocks automatically, boosting resource collection.
+	Crushing Wheels: Heavy-duty grinding for processing large quantities of items.
+	Smart Chute: Advanced chute with item filtering for precise item sorting.
+	Gearbox: Changes power direction, aiding in more flexible machine setups.
+	Flywheel: Stabilizes rotational power, supporting larger machines and smoother function.
+
+Advanced Tier:
+	Mechanical Arm: Picks and places items with precision, allowing complex automation.
+	Fluid Pump: Moves fluids between tanks, necessary for advanced fluid processing.
+	Weighted Ejector: Launches items over distances, expanding item movement options.
+	Mechanical Bearing: Rotates structures for custom automation, like moving platforms.
+	Sequenced Gearshift: Enables controlled and timed power adjustments.
+	Brass Funnel: Adds item filtering to funnel operations, refining automation control.
+
+Exquisite Tier:
+	Mechanical Harvester: Automates crop harvesting with high speed and efficiency.
+	Rotation Speed Controller: Precisely adjusts rotational speed for sensitive machines.
+	Stockpile Switch: Monitors item levels, triggering other machines at set points.
+	Stressometer: Measures machine load, helping optimize setups to avoid overload.
+	Clutch: Manages machine power transmission, crucial for more selective control.
+	Display Link: Visually displays machine data, adding a layer of management and monitoring.
+
+Flawless Tier:
+	Arcane Monitor: Tracks machine health and performance with magical enhancements.
+	Portal Controller: Manages portal-based item transport, enabling long-distance automation.
+	Mana-Infused Flywheel: Stores vast rotational energy, ideal for powering complex setups.
+	Hyper Gearbox: Offers precise control over rotational speed and direction at high speeds.
+	Enhanced Fluid Storage: Stores rare or magical fluids, supporting elite-level machines.

@@ -1,21 +1,45 @@
-[16:02:29] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
-[16:02:29] [INIT] Loaded plugins:
-[16:02:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[16:02:29] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
-[16:02:29] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
-[16:02:29] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
-[16:02:29] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[16:02:29] [INIT] - com.almostreliable.morejs.Plugin
-[16:02:29] [INIT] - pie.ilikepiefoo.AdditionsPlugin
-[16:02:29] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
-[16:02:29] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
-[16:02:29] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[16:02:29] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
-[16:02:29] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
-[16:02:29] [INFO] Loaded script startup_scripts:runefall_additions/blocks/treated_planks/register_treated_planks.js in 0.036 s
-[16:02:29] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/nails/register_nails.js in 0.001 s
-[16:02:29] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/oils/register_oils.js in 0.001 s
-[16:02:29] [INFO] Loaded 3/3 KubeJS startup scripts in 0.464 s with 0 errors and 0 warnings
-[16:02:30] [INFO] runefall_additions/blocks/treated_planks/register_treated_planks.js#15: Registered Treated Planks
-[16:02:30] [INFO] runefall_additions/items/crafting_materials/nails/register_nails.js#9: Registered Nail Items
-[16:02:30] [INFO] runefall_additions/items/crafting_materials/oils/register_oils.js#15: Registered Oil Items
+[19:17:58] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[19:17:58] [INIT] Loaded plugins:
+[19:17:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[19:17:58] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[19:17:58] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[19:17:58] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[19:17:58] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[19:17:58] [INIT] - com.almostreliable.morejs.Plugin
+[19:17:58] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[19:17:58] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[19:17:58] [INIT] - com.negodya1.kubejs.vintageimprovements.KubeJSVintagePlugin
+[19:17:58] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:17:58] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
+[19:17:58] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/blocks/register_misc.js in 0.051 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/blocks/register_tiered_planks.js in 0.002 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/blocks/register_tiered_stones.js in 0.002 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_alloys.js in 0.001 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_glues.js in 0.0 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_hides.js in 0.001 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_ingots.js in 0.0 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_misc.js in 0.0 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_mortars.js in 0.001 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_nails.js in 0.0 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_nuggets.js in 0.0 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_oils.js in 0.001 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_raw_ores.js in 0.0 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_ropes.js in 0.001 s
+[19:17:58] [INFO] Loaded script startup_scripts:runefall_additions/items/crafting_materials/register_strings.js in 0.001 s
+[19:17:58] [INFO] Loaded 15/15 KubeJS startup scripts in 0.47 s with 0 errors and 0 warnings
+[19:17:58] [INFO] runefall_additions/blocks/register_misc.js#79: Registered Misc Blocks
+[19:17:58] [INFO] runefall_additions/blocks/register_tiered_planks.js#87: Registered Tiered Plank Blocks
+[19:17:58] [INFO] runefall_additions/blocks/register_tiered_stones.js#95: Registered Tiered Stone Blocks
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_alloys.js#68: Registered Alloy Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_glues.js#21: Registered Glue Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_hides.js#34: Registered Hide Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_ingots.js#2: Registered Ingot Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_misc.js#15: Registered Misc Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_mortars.js#31: Registered Mortar Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_nails.js#38: Registered Nail Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_nuggets.js#2: Registered Nugget Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_oils.js#51: Registered Oil Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_raw_ores.js#2: Registered Raw Ore Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_ropes.js#21: Registered Rope Items
+[19:17:58] [INFO] runefall_additions/items/crafting_materials/register_strings.js#15: Registered String Items

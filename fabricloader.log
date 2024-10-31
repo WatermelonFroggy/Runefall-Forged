@@ -1,14 +1,14 @@
-[16:02:10] [WARN] [FabricLoader/Metadata]: The mod "betterstats" contains invalid entries in its mod json:
+[19:17:40] [WARN] [FabricLoader/Metadata]: The mod "betterstats" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 26 column 4
 - Unsupported root entry "" at line 26 column 92
 - Unsupported root entry "" at line 28 column 4
 - Unsupported root entry "" at line 28 column 24
-[16:02:11] [WARN] [FabricLoader/Metadata]: The mod "tcdcommons" contains invalid entries in its mod json:
+[19:17:41] [WARN] [FabricLoader/Metadata]: The mod "tcdcommons" contains invalid entries in its mod json:
 - Unsupported root entry "" at line 27 column 4
 - Unsupported root entry "" at line 27 column 198
 - Unsupported root entry "" at line 29 column 4
 - Unsupported root entry "" at line 29 column 24
-[16:02:12] [WARN] [FabricLoader/Resolution]: Warnings were found!
+[19:17:41] [WARN] [FabricLoader/Resolution]: Warnings were found!
  - §Emod 'Cardinal Components API (world saves)' (cardinal_components_level)§r 5.2.2 recommends any version of §6cardinal-components-world§r, which is missing!
 	 - You should install any version of §6cardinal-components-world§r for the optimal experience.
  - §Emod 'Spell Engine' (spell_engine)§r 0.15.11+1.20.1 recommends any version of §6trinkets§r, which is missing!
